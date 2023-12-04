@@ -38,7 +38,7 @@ export function Home() {
     const task: Task = {
       id: Crypto.randomUUID(),
       text: taskText,
-      done: true,
+      done: false,
     }
 
     setTasks((state) => [...state, task])
